@@ -1,0 +1,13 @@
+.sobre__titulo {
+    margin-bottom: 16px;
+
+    color: var(--azul-claro);
+
+    font-size: var(--titulo-mobile);
+    font-weight: var(--peso-bold);
+}
+
+.sobre__conteudo {
+    font-size: var(--texto-mobile);
+    font-weight: var(--peso-normal);
+}
