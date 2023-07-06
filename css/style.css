@@ -1,7 +1,10 @@
+@import url(Header.css);
+@import url(Banner.css);
+
 :root {
     --roxo: #1A1C36;
     --branco: #FFFFFF;
-    --preto: #020202;
+    --preto: #2A2A2A;
     --azul-claro: #A7B5C4;
     --vermelho: #F64348;
     --vermelho-hover: #822221;
@@ -19,4 +22,16 @@
 
 body {
     font-family: var(--fonte);
+}
+
+main {
+    background-color: var(--roxo);
+    color: #FFF;
+
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+
+    padding: 24px 16px;
 }
