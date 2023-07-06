@@ -1,12 +1,13 @@
 :root {
+    --roxo: #1A1C36;
     --branco: #FFFFFF;
     --preto: #020202;
     --azul-claro: #A7B5C4;
-    --vermelho-claro: #F64348;
-    --vermelho-escuro: #822221;
+    --vermelho: #F64348;
+    --vermelho-hover: #822221;
 
 
-    --fonte: Poppins;
+    --fonte: 'Poppins', sans-serif;
 
     --titulo-mobile: 22px;
     --texto-mobile: 16px;
@@ -14,4 +15,8 @@
 
     --peso-normal: 400;
     --peso-bold: 700;
+}
+
+body {
+    font-family: var(--fonte);
 }
