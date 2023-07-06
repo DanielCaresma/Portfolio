@@ -1,22 +1,17 @@
 :root {
-    --fonte: Roboto;
-    --branco: #FFF;
+    --branco: #FFFFFF;
     --preto: #020202;
-    --cinza: #2A2A2A;
     --azul-claro: #A7B5C4;
     --vermelho-claro: #F64348;
     --vermelho-escuro: #822221;
-    
 
 
+    --fonte: Poppins;
 
+    --titulo-mobile: 22px;
+    --texto-mobile: 16px;
+    --texto-destaque: 18px;
 
-
-    --titulo:   color: #000;
-                font-size: 22px;
-                font-family: Roboto;
-                font-style: normal;
-                font-weight: 700;
-                line-height: normal;
-    
+    --peso-normal: 400;
+    --peso-bold: 700;
 }
