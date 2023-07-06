@@ -1,0 +1,40 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.banner__apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apresentacao__chamada, .apresentacao__nome {
+    font-size: var(--titulo-mobile);
+    font-weight: var(--peso-bold);
+}
+
+.apresentacao__chamada {
+    color: var(--branco);
+}
+
+.apresentacao__nome {
+    color: var(--vermelho);
+}
+
+.apresentacao__cargo {
+    color: var(--branco);
+
+    font-size: var(--texto-mobile);
+    font-weight: var(--peso-normal);
+
+    margin-bottom: 28px;
+}
+
+.contato__lista {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
