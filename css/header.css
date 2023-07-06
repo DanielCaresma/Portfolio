@@ -1,0 +1,25 @@
+@import url(style.css);
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--preto);
+
+    padding: 8px 16px;
+}
+
+.cabecalho__titulo {
+    color: var(--vermelho);
+    font-size: var(--titulo-mobile);
+    font-weight: 700;
+}
+
+.cabecalho__menu {
+    margin: 0 24px 0;
+}
+
+.navegacao {
+    display: none;
+}
