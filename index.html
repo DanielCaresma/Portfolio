@@ -11,7 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header.css">
 </head>
 
 <body>
@@ -32,22 +31,22 @@
 
     <main>
         <section class="banner">
-            <div class="apresentação">
-                <h2>Olá, eu sou o</h2>
-                <h2>Daniel Caresma</h2>
-                <p>Desenvolvedor front-end</p>
-                <ul>
-                    <li><a href="#"><img src="" alt="Github"></a></li>
-                    <li><a href="#"><img src="#" alt="Linkedin"></a></li>
-                    <li><a href="#"><img src="#" alt="Whatsapp"></a></li>
-                </ul>
+            <img class="banner__foto" src="assets/imagens/profile.png"
+                alt="Rapaz branco de cabelos castanhos e franja usando uma camiseta preta com uma forma em curvas de fundo">
 
-                <a href="#">Dowload CV</a>
+            <div class="banner__apresentacao">
+                <h2 class="apresentacao__chamada">Olá, eu sou o</h2>
+                <h2 class="apresentacao__nome">Daniel Caresma</h2>
+                <p class="apresentacao__cargo">Desenvolvedor front-end</p>
             </div>
 
-            <div class="profile">
-                <img src="#" alt="...">
-            </div>
+            <ul class="banner__lista-links">
+                <li class="lista-links__icone"><a href="#"><img src="assets/icons/github.svg" alt="Github"></a></li>
+                <li class="lista-links__icone"><a href="#"><img src="assets/icons/linkedin.svg" alt="Linkedin"></a></li>
+                <li class="lista-links__icone"><a href="#"><img src="assets/icons/Whatsapp.svg" alt="Whatsapp"></a></li>
+                <li><a class="lista-links__botao" href="#">Dowload CV</a></li>
+            </ul>
+
         </section>
 
         <article class="about">
