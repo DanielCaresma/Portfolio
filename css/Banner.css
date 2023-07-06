@@ -8,10 +8,11 @@
 .banner__apresentacao {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: flex-start;
 }
 
-.apresentacao__chamada, .apresentacao__nome {
+.apresentacao__chamada,
+.apresentacao__nome {
     font-size: var(--titulo-mobile);
     font-weight: var(--peso-bold);
 }
@@ -33,8 +34,30 @@
     margin-bottom: 28px;
 }
 
-.contato__lista {
+.banner__lista-links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.lista-links__container {
     display: flex;
     align-items: flex-start;
     gap: 16px;
+}
+
+.lista-links__botao {
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+
+    border-radius: 8px;
+    background: var(--vermelho, #F64348);
+    box-shadow: 2px 2px 4px 0px rgba(245, 245, 245, 0.25);
+
+    font-size: var(--texto-destaque);
+    font-weight: var(--peso-bold);
 }
