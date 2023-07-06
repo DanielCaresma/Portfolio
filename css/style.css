@@ -1,9 +1,10 @@
 @import url(Header.css);
 @import url(Banner.css);
+@import url(sobre.css);
 
 :root {
     --roxo: #1A1C36;
-    --branco: #FFFFFF;
+    --branco: #f0f0f0;
     --preto: #2A2A2A;
     --azul-claro: #A7B5C4;
     --vermelho: #F64348;
@@ -26,7 +27,7 @@ body {
 
 main {
     background-color: var(--roxo);
-    color: #FFF;
+    color: var(--branco);
 
     display: flex;
     flex-direction: column;
