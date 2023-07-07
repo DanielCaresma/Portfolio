@@ -43,8 +43,7 @@
 
 .lista-links__container {
     display: flex;
-    align-items: flex-start;
-    gap: 16px;
+    gap: 24px;
 }
 
 .lista-links__botao {
