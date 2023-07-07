@@ -1,0 +1,22 @@
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.habilidades__titulo {
+    font-size: var(--titulo-mobile);
+    font-weight: var(--peso-bold);
+
+    color: var(--azul-claro);
+}
+
+.habilidades__lista {
+    display: flex;
+    width: 176px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px 24px;
+    flex-wrap: wrap;
+}
