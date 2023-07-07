@@ -2,6 +2,7 @@
 @import url(Banner.css);
 @import url(sobre.css);
 @import url(projetos.css);
+@import url(habilidades.css);
 
 :root {
     --roxo: #1A1C36;
