@@ -1,0 +1,18 @@
+.certificados, .certificados__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.certificados__titulo {
+    font-size: var(--titulo-mobile);
+    font-weight: var(--peso-bold);
+
+    color: var(--azul-claro);
+}
+
+.certificado__link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
