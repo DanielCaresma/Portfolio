@@ -8,6 +8,11 @@
     padding: 8px 16px;
 }
 
+.cabecalho__botoes {
+    display: flex;
+    align-items: center;
+}
+
 .cabecalho__titulo {
     color: var(--vermelho);
     font-size: var(--titulo-mobile);
@@ -15,9 +20,24 @@
 }
 
 .cabecalho__menu {
-    margin: 0 24px 0;
+    margin-right: 24px;
 }
 
 .navegacao {
     display: none;
+}
+
+@media screen and (min-width: 820px) {
+    .cabecalho__titulo {
+        font-size: var(--titulo-tablet);
+    }
+
+    .cabecalho__menu,
+    .cabecalho__mode {
+        width: 64px;
+    }
+
+    .cabecalho__menu {
+        margin-right: 128px;
+    }
 }
