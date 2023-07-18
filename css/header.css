@@ -26,18 +26,3 @@
 .navegacao {
     display: none;
 }
-
-@media screen and (min-width: 820px) {
-    .cabecalho__titulo {
-        font-size: var(--titulo-tablet);
-    }
-
-    .cabecalho__menu,
-    .cabecalho__mode {
-        width: 64px;
-    }
-
-    .cabecalho__menu {
-        margin-right: 128px;
-    }
-}
