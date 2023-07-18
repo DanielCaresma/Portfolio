@@ -60,3 +60,34 @@
     font-size: var(--texto-destaque);
     font-weight: var(--peso-bold);
 }
+
+@media screen and (min-width: 820px) {
+    .banner {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1024px;
+    }
+
+    .banner__foto {
+        width: 300px;
+    }
+
+    .apresentacao__chamada,
+    .apresentacao__nome {
+        font-size: var(--titulo-tablet);
+    }
+
+    .apresentacao__cargo {
+        font-size: var(--texto-tablet);
+    }
+
+    .lista-links__icone img {
+        width: 64px;
+    }
+
+    .lista-links__botao {
+        font-size: var(--destaque-tablet);
+        height: 41px;
+    }
+}
