@@ -51,3 +51,10 @@
 .card__icone {
     width: 64px;
 }
+
+@media screen and (min-width: 820px) {
+    .habilidades__titulo {
+        font-size: var(--titulo-tablet);
+        text-align: center;
+    }
+}

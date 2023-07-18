@@ -1,4 +1,5 @@
-.certificados, .certificados__lista {
+.certificados,
+.certificados__lista {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -15,4 +16,26 @@
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+.certificado__titulo {
+    font-size: var(--texto-destaque);
+    font-weight: bold;
+}
+
+@media screen and (min-width: 820px) {
+    
+    
+    .certificados__titulo {
+        font-size: var(--titulo-tablet);
+        text-align: center;
+    }
+
+    .certificado__icone {
+        width: 64px;
+    }
+
+    .certificado__titulo {
+        font-size: var(--destaque-tablet);
+    }
 }

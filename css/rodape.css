@@ -21,3 +21,14 @@
 .rodape__copy {
     font-weight: var(--peso-normal);
 }
+
+@media screen and (min-width: 820px) {
+    .rodape__titulo {
+        font-size: var(--titulo-tablet);
+    }
+
+    .lista__contato img {
+        width: 64px;
+    }
+    
+}
