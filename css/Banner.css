@@ -69,6 +69,10 @@
         gap: 32px;
     }
 
+    .banner__foto {
+        width: 300px;
+    }
+
     .apresentacao__chamada,
     .apresentacao__nome {
         font-size: var(--titulo-tablet);
