@@ -45,6 +45,10 @@ main {
     padding: 64px 32px;
 }
 
+.container {
+    width: 90%;
+}
+
 @media screen and (min-width: 768px) {
     main {
         padding: 64px;
