@@ -5,10 +5,15 @@
     gap: 16px;
 }
 
-.banner__apresentacao {
+.banner__foto {
+    width: 230px;
+}
+
+.banner__infos {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    gap: 16px;
 }
 
 .apresentacao__chamada,
@@ -30,23 +35,21 @@
 
     font-size: var(--texto-mobile);
     font-weight: var(--peso-normal);
-
-    margin-bottom: 28px;
 }
 
-.banner__lista-links {
+.banner__botoes {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 16px;
 }
 
-.lista-links__container {
+.botoes__contatos {
     display: flex;
     gap: 24px;
 }
 
-.lista-links__botao {
+.curriculo {
     display: flex;
     height: 32px;
     justify-content: center;
@@ -61,16 +64,9 @@
     font-weight: var(--peso-bold);
 }
 
-@media screen and (min-width: 820px) {
+@media screen and (min-width: 768px) {
     .banner {
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        width: 100%;
-        max-width: 1024px;
-    }
-
-    .banner__foto {
-        width: 300px;
+        gap: 32px;
     }
 
     .apresentacao__chamada,
@@ -82,12 +78,25 @@
         font-size: var(--texto-tablet);
     }
 
-    .lista-links__icone img {
+    .banner__infos {
+        gap: 32px;
+    }
+
+    .contato img {
         width: 64px;
     }
 
-    .lista-links__botao {
+    .curriculo {
         font-size: var(--destaque-tablet);
         height: 41px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .banner {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 90%;
+        max-width: 1024px;
     }
 }
