@@ -21,7 +21,7 @@
     --texto-mobile: 16px;
     --texto-destaque: 18px;
 
-    --titulo-tablet: 36px;
+    --titulo-tablet: 28px;
     --texto-tablet: 26px;
     --destaque-tablet: 26px;
 
@@ -42,5 +42,11 @@ main {
     gap: 48px;
     align-items: center;
 
-    padding: 24px 16px;
+    padding: 64px 32px;
+}
+
+@media screen and (min-width: 820px) {
+    main {
+        padding: 64px;
+    }
 }
