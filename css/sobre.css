@@ -1,5 +1,5 @@
 .sobre__titulo {
-    margin-bottom: 32px;
+    margin-bottom: 8px;
 
     color: var(--azul-claro);
 
@@ -12,14 +12,11 @@
     font-weight: var(--peso-normal);
 }
 
-@media screen and (min-width: 820px) {
-    .sobre__titulo {
-        font-size: var(--titulo-tablet);
+@media screen and (min-width: 768px) {
+    .sobre {
         text-align: center;
     }
-    
-    .sobre__conteudo {
-        font-size: var(--texto-tablet);
-        text-align: center;
+    .sobre__titulo {
+        font-size: var(--titulo-tablet);
     }
 }
