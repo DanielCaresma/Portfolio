@@ -25,19 +25,8 @@
     font-weight: bold;
 }
 
-@media screen and (min-width: 1024px) {
-    
-    
-    .certificados__titulo {
-        font-size: var(--titulo-tablet);
-        text-align: center;
-    }
-
-    .certificado__icone {
-        width: 64px;
-    }
-
-    .certificado__titulo {
-        font-size: var(--destaque-tablet);
+@media screen and (min-width: 768px) {
+    .certificados {
+        align-items: center;
     }
 }
