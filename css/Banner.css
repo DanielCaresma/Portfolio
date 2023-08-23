@@ -52,12 +52,20 @@
 .fa-github,
 .fa-linkedin,
 .fa-whatsapp {
-    background-image: linear-gradient(to bottom, var(--vermelho), rgba(0,0,0,0));
+    background-image: linear-gradient(to bottom, var(--vermelho), rgba(0, 0, 0, 0));
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
 
+    transition: 500ms;
+
     font-size: 3em;
+}
+
+
+.icone-contato:hover {
+    color: var(--vermelho);
+    font-size: 5em;
 }
 
 .curriculo {
@@ -73,6 +81,15 @@
 
     font-size: var(--texto-destaque);
     font-weight: var(--peso-bold);
+
+    transition: 500ms;
+}
+
+
+.curriculo:hover {
+    font-size: 28px;
+    height: 52px;
+    transition: 500ms;
 }
 
 
