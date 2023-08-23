@@ -22,6 +22,7 @@
 .fa-bars {
     color: var(--azul-claro);
     font-size: 1em;
+    transition: 500ms;
 }
 
 .fa-bars:hover {
