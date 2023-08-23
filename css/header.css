@@ -21,7 +21,12 @@
 
 .fa-bars {
     color: var(--azul-claro);
-    font-size: 22px;
+    font-size: 1em;
+}
+
+.fa-bars:hover {
+    color: var(--vermelho);
+    cursor: pointer;
 }
 
 .navegacao {
