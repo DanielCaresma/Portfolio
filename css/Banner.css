@@ -49,6 +49,17 @@
     gap: 24px;
 }
 
+.fa-github,
+.fa-linkedin,
+.fa-whatsapp {
+    background-image: linear-gradient(to bottom, var(--vermelho), rgba(0,0,0,0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    font-size: 3em;
+}
+
 .curriculo {
     display: flex;
     justify-content: center;
@@ -87,8 +98,10 @@
         gap: 32px;
     }
 
-    .contato img {
-        width: 64px;
+    .fa-github,
+    .fa-linkedin,
+    .fa-whatsapp {
+        font-size: 4em;
     }
 
     .curriculo {
