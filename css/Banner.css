@@ -51,10 +51,10 @@
 
 .curriculo {
     display: flex;
-    height: 32px;
     justify-content: center;
     align-items: center;
     align-self: stretch;
+    height: 36px;
 
     border-radius: 8px;
     background: var(--vermelho, #F64348);
@@ -63,6 +63,7 @@
     font-size: var(--texto-destaque);
     font-weight: var(--peso-bold);
 }
+
 
 @media screen and (min-width: 768px) {
     .banner {
@@ -103,6 +104,6 @@
         width: 90%;
         max-width: 1024px;
 
-        height: calc(100vh - 138px);
+        height: calc(100vh - 258px);
     }
 }
