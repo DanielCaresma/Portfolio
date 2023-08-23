@@ -39,7 +39,7 @@ main {
 
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 120px;
     align-items: center;
 
     padding: 64px 32px;
