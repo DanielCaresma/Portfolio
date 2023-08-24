@@ -8,13 +8,8 @@
     padding: 8px 16px;
 }
 
-.cabecalho__botoes {
-    display: flex;
-    align-items: center;
-}
-
 .cabecalho__titulo {
-    color: var(--branco);
+    color: var(--azul-claro);
     font-size: var(--titulo-mobile);
     font-weight: 700;
 }
@@ -23,11 +18,6 @@
     color: var(--azul-claro);
     font-size: 1em;
     transition: 500ms;
-}
-
-.fa-bars:hover {
-    color: var(--vermelho);
-    cursor: pointer;
 }
 
 .navegacao {
@@ -40,10 +30,29 @@
     }
 
     .cabecalho__titulo {
-        font-size: var(--titulo-tablet);
+        display: none;
     }
 
     .fa-bars {
-        font-size: 26px;
+        display: none;
+    }
+
+    .navegacao {
+        display: block;
+    }
+
+    .navegacao__item {
+        display: inline;
+
+        color: var(--azul-claro);
+        font-size: 1em;
+        font-weight: bold;
+
+        transition: 500ms;
+        margin: .5em;
+    }
+
+    .navegacao__item:hover {
+        color: var(--vermelho);
     }
 }
