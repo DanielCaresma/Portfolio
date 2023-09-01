@@ -33,6 +33,18 @@ body {
     font-family: var(--fonte);
 }
 
+::-webkit-scrollbar {
+    background: var(--preto);
+    width: .4em;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--vermelho);
+    border-radius: 10px;
+}
+
+
+
 main {
     background-color: var(--roxo);
     color: var(--branco);
