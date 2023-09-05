@@ -19,10 +19,6 @@
     transition: 500ms;
 }
 
-.lista__certificado:hover {
-
-    color: var(--vermelho);
-}
 
 .certificado__link {
     display: flex;
@@ -39,8 +35,13 @@
     .certificados__titulo {
         font-size: var(--titulo-tablet);
     }
-
+    
     .certificados {
         align-items: center;
+    }
+    
+    .lista__certificado:hover {
+    
+        color: var(--vermelho);
     }
 }
