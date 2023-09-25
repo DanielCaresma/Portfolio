@@ -3,6 +3,9 @@
     align-items: center;
     justify-content: space-between;
 
+    position: fixed;
+    width: 100vw;
+
     background-color: var(--preto);
 
     padding: 8px 16px;
