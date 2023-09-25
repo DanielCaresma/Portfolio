@@ -29,6 +29,10 @@
     --peso-bold: 700;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: var(--fonte);
 }
