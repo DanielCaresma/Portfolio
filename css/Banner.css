@@ -62,69 +62,66 @@
     font-size: 3em;
 }
 
-
-.icone-contato:hover {
-    color: var(--vermelho);
-    font-size: 5em;
-}
-
 .curriculo {
     display: flex;
     justify-content: center;
     align-items: center;
     align-self: stretch;
     height: 36px;
-
+    
     border-radius: 8px;
     background: var(--vermelho, #F64348);
     box-shadow: 2px 2px 4px 0px rgba(245, 245, 245, 0.25);
-
+    
     font-size: var(--texto-destaque);
     font-weight: var(--peso-bold);
-
+    
     transition: 500ms;
 }
-
-
-.curriculo:hover {
-    color: var(--azul-claro);
-    font-size: 28px;
-    height: 52px;
-    transition: 500ms;
-}
-
 
 @media screen and (min-width: 768px) {
     .banner {
         gap: 32px;
     }
-
+    
     .banner__foto {
         width: 300px;
     }
-
+    
     .apresentacao__chamada,
     .apresentacao__nome {
         font-size: var(--titulo-tablet);
     }
-
+    
     .apresentacao__cargo {
         font-size: var(--texto-tablet);
     }
-
+    
     .banner__infos {
         gap: 32px;
     }
-
+    
     .fa-github,
     .fa-linkedin,
     .fa-whatsapp {
         font-size: 4em;
     }
-
+    
+    .icone-contato:hover {
+        color: var(--vermelho);
+        font-size: 5em;
+    }
+    
     .curriculo {
         font-size: var(--destaque-tablet);
         height: 41px;
+    }
+
+    .curriculo:hover {
+        color: var(--azul-claro);
+        font-size: 28px;
+        height: 52px;
+        transition: 500ms;
     }
 }
 
