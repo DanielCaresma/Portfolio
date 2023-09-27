@@ -15,10 +15,6 @@
 }
 
 .carrossel {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;*/
-
     height: 146px;
     position: relative;
 }
@@ -42,11 +38,13 @@
 .swiftleft {
     position: absolute;
     left: -25px;
+    border-radius: 8px;
 }
 
 .swiftright {
     position: absolute;
     right: -25px;
+    border-radius: 8px;
 }
 
 .projetos__carrossel {
@@ -70,6 +68,10 @@
     align-items: center;
 }
 
+.carrossel__projeto:hover {
+    cursor: pointer;
+}
+
 .projeto__imagem {
     position: relative;
     border-radius: 8px;
@@ -88,6 +90,10 @@
     
     box-shadow: inset 0 0 0 100vw rgba(0,0,0,.8);
     border-radius: 8px;
+}
+
+.projeto__infos:hover {
+    display: none;
 }
 
 .info__titulo {
