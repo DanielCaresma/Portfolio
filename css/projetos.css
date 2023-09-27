@@ -41,12 +41,12 @@
 
 .swiftleft {
     position: absolute;
-    left: 0px;
+    left: -25px;
 }
 
 .swiftright {
     position: absolute;
-    right: 0px;
+    right: -25px;
 }
 
 .projetos__carrossel {
