@@ -9,6 +9,8 @@
     background-color: var(--preto);
 
     padding: 8px 16px;
+
+    z-index: 4;
 }
 
 .cabecalho__titulo {
