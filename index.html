@@ -119,7 +119,6 @@
                         </div>
                         <span class="saiba-mais">Saiba mais</span>
                     </li>
-                    
                     <li class="carrossel__projeto">
                         <img class="projeto__imagem" src="/assets/imagens/Home - HZC 1.jpg" alt="Projeto HZC">
                         <div class="projeto__infos">
@@ -229,8 +228,10 @@
                         <span class="saiba-mais">Saiba mais</span>
                     </li>
                 </ul>
-                <a class="swiftleft sliderbutton" onclick="sliderScrollLeft()"><i class="fa-solid fa-angle-left"></i></a>
-                <a class="swiftright sliderbutton" onclick="sliderScrollRight()"><i class="fa-solid fa-angle-right"></i></a>
+                <a class="swiftleft sliderbutton" onclick="sliderScrollLeft()"><i
+                        class="fa-solid fa-angle-left"></i></a>
+                <a class="swiftright sliderbutton" onclick="sliderScrollRight()"><i
+                        class="fa-solid fa-angle-right"></i></a>
             </div>
         </section>
 
@@ -324,7 +325,40 @@
             &copy 2023 </p>
     </footer>
 
+    <section id="myModal" class="modal">
+        <section class="modal__content">
+            <i class="fa-solid fa-xmark close"></i>
+
+            <header class="modal__cabecalho">Casa Verde</header>
+
+            <div class="modal__body">
+                <div class="modal__video">
+                    <iframe class="video__content" src="assets/videos/Portfólio.mp4" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p class="modal__descricao">
+                    O DoWhile 2021 Card é uma aplicação interativa que mostra informações do usuário através da API do
+                    GitHub :D <br><br>
+
+                    Após concluir o evento, adicionei funcionalidades extras, como: <br><br>
+
+                    • Modal para o usuário inserir seus próprios dados no Card; <br>
+                    • Armazenamento dos dados inseridos pelo usuário no LocalStorage do navegador, fazendo com que as
+                    informações sejam mantidas mesmo após fechar a página; <br>
+                    • Animação de Flip em 3D (com CSS puro); <br>
+                    • Verso do Card com informações sobre o DoWhile 2021; <br>
+                    • Versão Desktop e Mobile.
+                </p>
+            </div>
+
+            <footer class="modal__links">
+                <a href="#" target="_blank" class="modal__link">Acessar projeto</a>
+                <a href="https://github.com/DanielCaresma/CasaVerde" target="_blank" class="modal__link">Acessar repositório</a>
+            </footer>
+        </section>
+    </section>
+
     <script src="javascript/carossel.js"></script>
+    <script src="javascript/modal.js"></script>
 </body>
 
 </html>
