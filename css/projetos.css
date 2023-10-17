@@ -31,32 +31,30 @@
     
     width: 45px;
     height: 100%;
-    top: 0;
+    top: 40px;
     z-index: 3;
 }
 
 .swiftleft {
     position: absolute;
-    left: -25px;
-    border-radius: 8px;
+    left: -40px;
+    border-radius: 8px 0 0 8px;
 }
 
 .swiftright {
     position: absolute;
-    right: -25px;
-    border-radius: 8px;
+    right: -40px;
+    border-radius: 0 8px 8px 0;
 }
 
 .projetos__carrossel {
     position: relative;
     width: auto;
-    height: 164px;
-
     overflow: hidden;
     white-space: nowrap;
     display: inline-block;
     text-align: center;
-    padding-bottom: 20px;
+    padding: 40px 0;
     display: flex;
     gap: 16px;
     align-items: center;
@@ -64,17 +62,32 @@
 
 .carrossel__projeto {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 0.5s ease;
+    z-index: 2;
+
+    position: relative;
 }
 
 .carrossel__projeto:hover {
     cursor: pointer;
+    transform: scale(1.1);
+    z-index: 3;
+}
+
+.carrossel__projeto:hover .saiba-mais {
+    bottom: -25px;
+}
+
+.carrossel__projeto:hover .projeto__infos {
+    opacity: 0;
 }
 
 .projeto__imagem {
     position: relative;
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0;
 }
 
 .projeto__infos {
@@ -89,12 +102,7 @@
     gap: 16px;
     
     box-shadow: inset 0 0 0 100vw rgba(0,0,0,.8);
-    border-radius: 8px;
-}
-
-.projeto__infos:hover {
-
-    opacity: 0;
+    border-radius:  8px 8px 0 0;
 }
 
 .info__titulo {
@@ -113,6 +121,25 @@
 .tecnologia__icone img {
     width: 24px;
 }
+
+.saiba-mais {
+    position: absolute;
+    bottom: 0;
+
+    background-color: var(--vermelho);
+    border-radius: 0 0 8px 8px ;
+
+    font-size: 12px;
+
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    transition: 0.5s ease;
+
+    z-index: -1;
+}
+
+
 
 @media screen and (min-width: 768px) {
     .projetos {
