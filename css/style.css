@@ -5,6 +5,7 @@
 @import url(habilidades.css);
 @import url(certificados.css);
 @import url(rodape.css);
+@import url(modal.css);
 
 :root {
     --roxo: #1A1C36;
