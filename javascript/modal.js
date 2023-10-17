@@ -20,3 +20,20 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+const dataProjects = [
+  {
+    title: 'Robotron-2000',
+    description: `O Robotron-2000 é a simulação de uma tela de jogo onde o usuário pode alterar a cor do personagem e adicionar peças aumentando suas skills dinamicamente.`, 
+    videoSrc: '',
+    repository: 'https://github.com/DanielCaresma/robotron-2000',
+    site: ''
+  },
+  {
+    title: 'Habits',
+    description: `Projeto de controle de hábitos desenvolvido pela plataforma rocketseat na semana NLW`, 
+    videoSrc: '',
+    repository: 'https://github.com/DanielCaresma/nwl-setup',
+    site: ''
+  }
+]
