@@ -1,0 +1,121 @@
+{
+  "projetos": [
+    {
+      "title": "Robotron-2000",
+      "thumb": "assets/projetos/thumbnails/robotron-2000.jpg",
+      "tecnologias": ["html", "css", "javascript"],
+      "description": "O Robotron-2000 é a simulação de uma tela de jogo onde o usuário pode alterar a cor do personagem e adicionar peças aumentando suas skills dinamicamente.",
+      "videoSrc": "",
+      "repository": "https://github.com/DanielCaresma/robotron-2000",
+      "site": "https://robotron-2000-iota-rose.vercel.app/"
+    },
+    {
+      "title": "Adopet",
+      "thumb": "assets/projetos/thumbnails/adopet.jpg",
+      "tecnologias": ["html", "css", "javascript", "figma"],
+      "description": "O adopet é um site fictício de adoção de pets sugerido pela alura durante um challenge",
+      "videoSrc": "",
+      "repository": "https://github.com/DanielCaresma/Adopet",
+      "site": "https://adopet-wheat.vercel.app/"
+    },
+    {
+      "title": "AluraPlay",
+      "thumb": "assets/projetos/thumbnails/alura-play.jpg",
+      "tecnologias": ["html", "css", "javascript", "node"],
+      "description": "Neste projeto aprendi a fazer um mockup para tornar a lista de videos da página dinâmica",
+      "videoSrc": "",
+      "repository": "https://github.com/DanielCaresma/aluraplay-criando-requisicoes",
+      "site": ""
+    },
+    {
+      "title": "Mochila de Viagem",
+      "thumb": "assets/projetos/thumbnails/mochila-de-viagem.jpg",
+      "tecnologias": ["html", "css", "javascript"],
+      "description": "Mochila de viagem foi um projeto desenvolvido pela alura para ensinar como salvar informações do usuário principalmente utilizando o localStorage.",
+      "videoSrc": "",
+      "repository": "https://github.com/DanielCaresma/mochila-de-viagem",
+      "site": "https://mochila-de-viagem-one-gold.vercel.app/"
+    },
+    {
+      "title": "Casa Verde",
+      "thumb": "assets/projetos/thumbnails/casa-verde.png",
+      "tecnologias": ["html", "css", "figma"],
+      "description": "Em desenvolvimento",
+      "videoSrc": "",
+      "repository": "https://github.com/DanielCaresma/CasaVerde",
+      "site": ""
+    },
+    {
+      "title": "HZC",
+      "thumb": "assets/projetos/thumbnails/",
+      "tecnologias": ["html", "css", "javascript", "figma"],
+      "description": "Site de skate",
+      "videoSrc": "",
+      "repository": "https://github.com/DanielCaresma/Alura-SkateSpots",
+      "site": ""
+    },
+    {
+      "title": "Apeperia",
+      "thumb": "assets/projetos/thumbnails/",
+      "tecnologias": "",
+      "description": "Site criado para estudar acessibilidade web",
+      "videoSrc": "",
+      "repository": "https://github.com/DanielCaresma/Apeperia",
+      "site": ""
+    },
+    {
+      "title": "Alura Midi",
+      "thumb": "assets/projetos/thumbnails/",
+      "tecnologias": "",
+      "description": "",
+      "videoSrc": "",
+      "repository": "https://github.com/DanielCaresma/git-aluramidi",
+      "site": ""
+    },
+    {
+      "title": "Alura Fone",
+      "thumb": "assets/projetos/thumbnails/",
+      "tecnologias": "",
+      "description": "Em desenvolvimento",
+      "videoSrc": "",
+      "repository": "https://github.com/DanielCaresma/Alura-fone",
+      "site": "https://mochila-de-viagem-one-gold.vercel.app/"
+    },
+    {
+      "title": "Monibank",
+      "thumb": "assets/projetos/thumbnails/",
+      "tecnologias": "",
+      "description": "Projeto que simula um cadastro de de usuario de banco, fazendo validação de dados e biometria facial",
+      "videoSrc": "",
+      "repository": "https://github.com/DanielCaresma/monibank",
+      "site": ""
+    },
+    {
+      "title": "Alura Geek",
+      "thumb": "assets/projetos/thumbnails/",
+      "tecnologias": "",
+      "description": "Em desenvolvimento",
+      "videoSrc": "",
+      "repository": "https://github.com/DanielCaresma/AluraGeek",
+      "site": ""
+    },
+    {
+      "title": "Alura Books",
+      "thumb": "assets/projetos/thumbnails/",
+      "tecnologias": "",
+      "description": "Em desenvolvimento",
+      "videoSrc": "",
+      "repository": "https://github.com/DanielCaresma/AluraBooks",
+      "site": ""
+    },
+    {
+      "title": "To-do list",
+      "thumb": "assets/projetos/thumbnails/",
+      "tecnologias": "",
+      "description": "Em desenvolvimento",
+      "videoSrc": "",
+      "repository": "https://github.com/DanielCaresma/To-do_list",
+      "site": ""
+    }
+  ]
+}
