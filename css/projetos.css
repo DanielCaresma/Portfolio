@@ -77,7 +77,7 @@
     z-index: 3;
 }
 
-.carrossel__projeto:hover .saiba-mais {
+.carrossel__projeto:hover .ver-mais {
     bottom: -25px;
 }
 
@@ -88,6 +88,8 @@
 .projeto__imagem {
     position: relative;
     border-radius: 8px 8px 0 0;
+    width: 212px;
+    height: 146px;
 }
 
 .projeto__infos {
@@ -122,7 +124,7 @@
     width: 24px;
 }
 
-.saiba-mais {
+.ver-mais {
     position: absolute;
     bottom: 0;
 
