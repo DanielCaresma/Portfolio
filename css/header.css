@@ -79,4 +79,12 @@
     .navegacao {
         display: block;
     }
+
+    .navegacao__lista {
+        display: block;
+    }
+
+    .navegacao__item {
+        margin: .5em;
+    }
 }
