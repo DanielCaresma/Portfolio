@@ -30,20 +30,20 @@
     background-color: #00000062;
 
     width: 45px;
-    height: 100%;
-    top: 0;
+    height: 146px;
+    top: 36px;
     z-index: 3;
 }
 
 .swiftleft {
     position: absolute;
-    left: -40px;
+    left: -45px;
     border-radius: 8px 0 0 8px;
 }
 
 .swiftright {
     position: absolute;
-    right: -40px;
+    right: -45px;
     border-radius: 0 8px 8px 0;
 }
 
@@ -57,6 +57,7 @@
     display: flex;
     gap: 16px;
     align-items: center;
+    padding: 36px 8px;
 }
 
 .projetos__carrossel--none {
