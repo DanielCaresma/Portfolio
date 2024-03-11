@@ -15,7 +15,7 @@
 }
 
 .carrossel {
-    height: 146px;
+    height: auto;
     position: relative;
 }
 
@@ -31,7 +31,7 @@
 
     width: 45px;
     height: 100%;
-    top: 40px;
+    top: 0;
     z-index: 3;
 }
 
@@ -57,6 +57,15 @@
     display: flex;
     gap: 16px;
     align-items: center;
+}
+
+.projetos__carrossel--none {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 36px;
+    margin-bottom: 16px;
 }
 
 .carrossel__projeto {
@@ -110,6 +119,8 @@
     font-size: var(--titulo-mobile);
     font-weight: var(--peso-bold);
     color: var(--vermelho);
+    max-width: 160px;
+    text-wrap: wrap;
 }
 
 .infos__tecnologias {
@@ -140,6 +151,28 @@
     z-index: -1;
 }
 
+.btn-ver-todos {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border-radius: 16px;
+
+    font-weight: 400;
+
+    width: fit-content;
+    padding: 0 8px;
+
+    align-self: center;
+
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.btn-ver-todos:hover {
+    color: var(--azul-claro);
+    font-size: 18px;
+    
+}
+
 
 
 @media screen and (min-width: 768px) {
@@ -152,27 +185,14 @@
     }
 }
 
-@media screen and (min-width: 820px) {
-    .carrossel {
-        height: auto;
-    }
+
+
+/* funcionalidade - ver mais projetos ativo 
 
     .swiftleft,
     .swiftright {
         display: none;
     }
-
-    .projetos__carrossel {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-
-    .info__titulo {
-        max-width: 160px;
-        text-wrap: wrap;
-    }
-
-
-}
+    
+    
+*/
