@@ -1,7 +1,7 @@
 .projetos {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 32px;
 
     width: 100%;
     max-width: 1024px;
@@ -54,7 +54,6 @@
     white-space: nowrap;
     display: inline-block;
     text-align: center;
-    padding: 40px 0;
     display: flex;
     gap: 16px;
     align-items: center;

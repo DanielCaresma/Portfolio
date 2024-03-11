@@ -1,8 +1,15 @@
+.certificados {
+    gap: 32px;
+}
+
+.certificados__lista {
+    gap: 16px;
+}
+
 .certificados,
 .certificados__lista {
     display: flex;
     flex-direction: column;
-    gap: 16px;
 }
 
 .certificados__titulo {

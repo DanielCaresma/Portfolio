@@ -1,7 +1,7 @@
 .habilidades {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 32px;
 }
 
 .habilidades__titulo {
