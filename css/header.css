@@ -5,6 +5,7 @@
 
     position: fixed;
     width: 100vw;
+    height: 48px;
 
     background-color: var(--preto);
 
